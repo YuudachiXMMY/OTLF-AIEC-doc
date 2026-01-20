@@ -14,15 +14,15 @@ OTLF-AIEC/
 
 ## Key documents
 
-The `doc/` folder contains the following artefacts:
+The `docs/` folder contains the following artefacts:
 
-- **Product Requirements**: `doc/prd/PRD-AIEC-Platform.md` lays out the functional requirements, user stories and high‑level workflows.
-- **Pages & Fields Dictionary**: `doc/prd/PRD-Pages-and-Fields.md` enumerates form fields and validation rules.
-- **API Specification**: `doc/api/API-Spec-MVP.md` documents the REST endpoints exposed by the backend.
-- **Data Dictionary**: `doc/data-dictionary/Data-Dictionary-MVP.md` explains the database schema and key attributes.
-- **Permissions Matrix**: `doc/security/Permissions-Matrix.md` details the role‑based access control model.
-- **Release Plan**: `doc/release-plan/Release-Plan-3Weeks.md` summarises the three‑week rollout schedule.
-- **Architecture Blueprint**: `doc/architecture/Repo-Architecture-Blueprint.md` diagrams the system and repo layout.
+- **Product Requirements**: [PRD-AIEC-Platform][prd-platform] lays out the functional requirements, user stories and high‑level workflows.
+- **Pages & Fields Dictionary**: [PRD-Pages-and-Fields][pages-fields] enumerates form fields and validation rules.
+- **API Specification**: [API-Spec-MVP][api-spec] documents the REST endpoints exposed by the backend.
+- **Data Dictionary**: [Data-Dictionary-MVP][data-dictionary] explains the database schema and key attributes.
+- **Permissions Matrix**: [Permissions-Matrix][permissions-matrix] details the role‑based access control model.
+- **Release Plan**: [Release-Plan-3Weeks][release-plan] summarises the three‑week rollout schedule.
+- **Architecture Blueprint**: [Repo-Architecture-Blueprint][architecture-blueprint] diagrams the system and repo layout.
 
 ## Requirements
 
@@ -142,6 +142,14 @@ Contributions are welcome. Please fork the repository, create a feature branch, 
 ## License
 
 This project is licensed for use by OTLF. See the LICENSE file for details.
+
+[prd-platform]: docs/prd/PRD-AIEC-Platform.md
+[pages-fields]: docs/prd/PRD-Pages-and-Fields.md
+[api-spec]: docs/api/API-Spec-MVP.md
+[data-dictionary]: docs/data-dictionary/Data-Dictionary-MVP.md
+[permissions-matrix]: docs/security/Permissions-Matrix.md
+[release-plan]: docs/release-plan/Release-Plan-3Weeks.md
+[architecture-blueprint]: docs/architecture/Repo-Architecture-Blueprint.md
 
 ----
 
