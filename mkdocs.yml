@@ -1,0 +1,39 @@
+site_name: AIEC Platform Docs
+site_description: Documentation for the AI Entrepreneurship Contest platform run by OTLF.
+site_url: https://yuudachixmmy.github.io/OTLF-AIEC-doc/
+repo_url: https://github.com/YuudachiXMMY/OTLF-AIEC-doc
+repo_name: YuudachiXMMY/OTLF-AIEC-doc
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Product Requirements:
+      - Platform Overview: prd/PRD-AIEC-Platform.md
+      - Pages and Fields Dictionary: prd/PRD-Pages-and-Fields.md
+  - API:
+      - API Spec (MVP): api/API-Spec-MVP.md
+  - Data Dictionary: data-dictionary/Data-Dictionary-MVP.md
+  - Security:
+      - Permissions Matrix: security/Permissions-Matrix.md
+  - Release Plan: release-plan/Release-Plan-3Weeks.md
+  - Architecture: architecture/Repo-Architecture-Blueprint.md
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+plugins:
+  - search
